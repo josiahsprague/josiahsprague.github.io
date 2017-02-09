@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/localjo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://josiahsprague.com
+  * I am localjo (https://keybase.io/localjo) on keybase.
+  * I have a public key ASC7Ty9759EwTi152UaIdwBc16C4pwfGVzWGAihKZDTGcAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120bb4f2f7be7d1304e2d79d9468877005cd7a0b8a707c657358602284a6434c6700a",
+            "host": "keybase.io",
+            "kid": "0120bb4f2f7be7d1304e2d79d9468877005cd7a0b8a707c657358602284a6434c6700a",
+            "uid": "fe19aab0684980612b9fb86e261f0b19",
+            "username": "localjo"
+        },
+        "service": {
+            "hostname": "josiahsprague.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1486673362,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1486673346,
+        "hash": "7420e73203d9e4d589cfdc7543c45fc8bae128a409fbdafe568ccc9947cd056c1dfbcec36192b04e9558994d74d0c3144f95e162b1f0604707f5afcdcfd64f58",
+        "seqno": 862629
+    },
+    "prev": "cdcfbe01688d6eed4a615f8e8ccea890810ddbf6c3cc3088b92d7d844b95a685",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgu08ve+fRME4tedlGiHcAXNeguKcHxlc1hgIoSmQ0xnAKp3BheWxvYWTFAvh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYmI0ZjJmN2JlN2QxMzA0ZTJkNzlkOTQ2ODg3NzAwNWNkN2EwYjhhNzA3YzY1NzM1ODYwMjI4NGE2NDM0YzY3MDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYmI0ZjJmN2JlN2QxMzA0ZTJkNzlkOTQ2ODg3NzAwNWNkN2EwYjhhNzA3YzY1NzM1ODYwMjI4NGE2NDM0YzY3MDBhIiwidWlkIjoiZmUxOWFhYjA2ODQ5ODA2MTJiOWZiODZlMjYxZjBiMTkiLCJ1c2VybmFtZSI6ImxvY2Fsam8ifSwic2VydmljZSI6eyJob3N0bmFtZSI6Impvc2lhaHNwcmFndWUuY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ4NjY3MzM2MiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDg2NjczMzQ2LCJoYXNoIjoiNzQyMGU3MzIwM2Q5ZTRkNTg5Y2ZkYzc1NDNjNDVmYzhiYWUxMjhhNDA5ZmJkYWZlNTY4Y2NjOTk0N2NkMDU2YzFkZmJjZWMzNjE5MmIwNGU5NTU4OTk0ZDc0ZDBjMzE0NGY5NWUxNjJiMWYwNjA0NzA3ZjVhZmNkY2ZkNjRmNTgiLCJzZXFubyI6ODYyNjI5fSwicHJldiI6ImNkY2ZiZTAxNjg4ZDZlZWQ0YTYxNWY4ZThjY2VhODkwODEwZGRiZjZjM2NjMzA4OGI5MmQ3ZDg0NGI5NWE2ODUiLCJzZXFubyI6MTEsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAu+Ipd0XlUeHcFJYtgAvwxN70ogmPBC4Jr8k386F6rFFi2mvI1cuA+wG5EmZ9wcQjVrjaXk2OdRZrCO95grp9CqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMatijeW01fRyo2alNSinmk5dVNtYrujEg7M1hs3XB4No3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/localjo
+
+==================================================================
