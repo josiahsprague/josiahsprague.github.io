@@ -83,8 +83,8 @@ hr {
     border-bottom: 0;
   }
 }
-.jumbotron p {text-align: left;}
-.lead span {background: #000; color: #fff; background: rgba(0,0,0,0.5); padding: 0 10px;}
+.jumbotron p {text-align: left; letter-spacing: 0.05em;}
+.lead span, .lead.hidden-lg {background: #000; color: #fff; background: rgba(0,0,0,0.5); padding: 0 10px;}
 .img-thumbnail {max-height: 250px;}
 .well {
   background: rgba(0,0,0,0.1);
@@ -107,4 +107,10 @@ p,h1,h2,h3 {
 
 .alert, .jumbotron, .img-thumbnail, .well{
   border-radius: 0 !important;
+}
+
+.label {
+  font-weight: normal;
+  color: #c1dde6;
+  background: rgba(0,0,0,0.3);
 }
