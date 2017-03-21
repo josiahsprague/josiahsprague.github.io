@@ -108,6 +108,9 @@ p,h1,h2,h3 {
 .alert, .jumbotron, .img-thumbnail, .well{
   border-radius: 0 !important;
 }
+.alert-info {
+  border: none;
+}
 
 .label {
   font-weight: normal;
