@@ -11,9 +11,10 @@
   <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <link href="custom.css" rel="stylesheet">
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+  <script src="particles.js"></script>
 </head>
 <body>
-  <div class="container">
+  <div class="container" id="particles-js">
     <div class="page-header">
       <h1>Josiah Sprague <small>Front End Engineer</small></h1>
       <hr>
@@ -214,6 +215,10 @@
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-12977855-4', 'josiahsprague.github.io');
     ga('send', 'pageview');
+
+    particlesJS.load('particles-js', 'particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
     </script>
   </body>
   </html>
