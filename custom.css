@@ -76,6 +76,7 @@ a, .btn {
   min-height: 0.5em;
   border-radius: 5px;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+  opacity: 0.8;
 }
 .well:hover {
   text-decoration: none;
