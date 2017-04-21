@@ -34,8 +34,11 @@ a, .btn {
 }
 
 .jumbotron {
-  text-align: center;
   border: 0;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+  background-color: transparent;
+  background-size: cover;
+  background-image: url(banner.jpg);
 }
 .jumbotron .btn {
   padding: 14px 24px;
