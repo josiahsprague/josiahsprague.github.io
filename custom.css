@@ -111,6 +111,7 @@ a.list-group-item {
   background: #eee;
   color: #333;
   opacity: 0.5;
+  margin-bottom: 4px;
 }
 .well .label {
   background: #333;
