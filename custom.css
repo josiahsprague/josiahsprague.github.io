@@ -3,12 +3,9 @@ body {
   color: #eee;
   font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
 }
-a {
+a, a:hover, a:active {
   color: inherit;
   text-decoration: underline;
-}
-a:hover {
-  color: inherit;
 }
 a, .btn {
   cursor: pointer;
@@ -78,13 +75,19 @@ a, .btn {
   box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
   opacity: 0.8;
 }
-.well:hover {
+.well:hover, .well:active {
   text-decoration: none;
   background: #ddd;
   color: #111;
 }
 h1,h2,h3,h4 {
   font-weight: bold;
+}
+h3.hidden-xs {
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 .row p {
   font-size: 1.1em;
@@ -104,14 +107,14 @@ a.list-group-item {
 .alert-info {
   border: none;
 }
-
 .label {
+  display: inline-block;
+  padding: 4px 6px;
   border-radius: 5px !important;
   font-weight: normal;
   background: #eee;
   color: #333;
   opacity: 0.5;
-  margin-bottom: 4px;
 }
 .well .label {
   background: #333;
@@ -124,7 +127,4 @@ a.list-group-item {
   margin-right: 1em;
   margin-left: 1em;
   white-space: nowrap;
-}
-div[class^="col"] {
-  padding-bottom: 1em;
 }
