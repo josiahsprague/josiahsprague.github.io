@@ -1,35 +1,30 @@
-/* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #c1dde6;
+  background-color: #333;
+  color: #eee;
+  font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
 }
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+a:hover {
+  color: inherit;
+}
+a, .btn {
+  cursor: pointer;
+}
+.well a, a.btn {
+  text-decoration: none;
+}
+.header {
   padding-right: 15px;
   padding-left: 15px;
 }
 
-/* Custom page header */
 .page-header {
   border: 0;
   padding: 0;
 }
-.page-header small {
-  color: #000;
-  opacity: 0.4;
-}
-hr {
-  background: rgba(0,0,0,0.1);
-  height: 4px;
-  border: 0;
-  border-top: 1px solid rgba(0,0,0,0.3);
-  border-bottom: 1px solid rgba(255,255,255,0.5);
-}
-/* Make the masthead heading the same height as the navigation */
 .header h3 {
   padding-bottom: 19px;
   margin-top: 0;
@@ -37,35 +32,18 @@ hr {
   line-height: 40px;
 }
 
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-}
-
-/* Customize container */
 .container-narrow > hr {
   margin: 30px 0;
 }
 
-/* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+  border: 0;
 }
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
 }
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
-}
-
-/* Particle container */
 
 #particles {
   position: fixed;
@@ -76,55 +54,75 @@ hr {
   right: 0;
 }
 
-/* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
+  .header {
     padding-right: 0;
     padding-left: 0;
   }
-  /* Space out the masthead */
   .header {
     margin-bottom: 30px;
   }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
 }
-.jumbotron p {text-align: left; letter-spacing: 0.05em;}
+.jumbotron p {text-align: left; letter-spacing: 0.05em; font-family: Helvetica, 'Source Sans Pro', sans-serif;}
 .lead span, .lead.hidden-lg {background: #000; color: #fff; background: rgba(0,0,0,0.5); padding: 0 10px;}
 .img-thumbnail {max-height: 250px;}
 .well {
-  background: rgba(0,0,0,0.1);
+  text-decoration: none;
+  display: block;
+  background: #eee;
+  color: #333;
   padding: 8px 19px;
   border: 0;
-  box-shadow: inset 1px 1px 5px rgba(0,0,0,0.2);
+  min-height: 0.5em;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
 }
-p,h1,h2,h3 {
-  text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+.well:hover {
+  text-decoration: none;
+  background: #ddd;
+  color: #111;
 }
-.btn .lead, .label, .alert, .well, .lead *, .label *, .alert *, .well * {text-shadow: none;}
-.list-group-item {
+h1,h2,h3,h4 {
+  font-weight: bold;
+}
+.row p {
+  font-size: 1.1em;
+}
+a.list-group-item {
   background: none;
   border: none;
-  text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+  color: #eee;
 }
-.list-group-item, .btn, .label {
-  border-radius: 50px !important;
+.list-group-item, .btn {
+  border-radius: 5px !important;
 }
 
 .alert, .jumbotron, .img-thumbnail, .well{
-  border-radius: 0 !important;
+  border-radius: 5px !important;
 }
 .alert-info {
   border: none;
 }
 
 .label {
+  border-radius: 5px !important;
   font-weight: normal;
-  color: #c1dde6;
-  background: rgba(0,0,0,0.3);
+  background: #eee;
+  color: #333;
+  opacity: 0.5;
+}
+.well .label {
+  background: #333;
+  color: #eee;
+}
+.well-divider {
+  text-align: center;
+}
+.well-divider a {
+  margin-right: 1em;
+  margin-left: 1em;
+  white-space: nowrap;
+}
+div[class^="col"] {
+  padding-bottom: 1em;
 }
