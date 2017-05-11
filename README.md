@@ -1,2 +1,2 @@
-josiahsprague.github.io
+localjo.github.io
 =======================
